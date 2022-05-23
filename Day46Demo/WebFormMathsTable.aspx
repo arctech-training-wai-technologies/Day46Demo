@@ -26,7 +26,7 @@
                         for (int i = 1; i <= 10; i++)
                         {
                             Response.Write("<tr>");
-                            Response.Write($"<td>{num}</td><td>x</td><td>{i}</td><td>=</td><td>{num * i}</td>");
+                            Response.Write($"<td>{num:N0}</td><td>x</td><td style=\"text-align:right\">{i}</td><td>=</td><td style=\"text-align:right\">{num * i:N0}</td>");
                             Response.Write("</tr>");
                         }
                     }
